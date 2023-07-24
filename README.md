@@ -1,7 +1,7 @@
 # Red Gym
 
 **Description:**
-Red Gym is a React.js-based project that uses HTML, CSS, React.js, and MaterialUI. The main functionality of the project is to fetch data from two APIs - ExerciseDB and YouTube Video and Download API, both obtained from RapidAPI. The ExerciseDB API provides information about various exercises, and its data is used to fetch related videos from the YouTube API. The project boasts a user-friendly interface with reusable components and pagination. **Note:** Please remember to change the API key as it is unique to your setup.
+Red Gym is a React.js-based project that uses HTML, CSS, React.js, and MaterialUI. The main functionality of the project is to fetch data from two APIs - ExerciseDB and YouTube Video and Download API, both obtained from RapidAPI. The ExerciseDB API provides information about various exercises, and its data is used to fetch related videos from the YouTube API. The project boasts a user-friendly interface with reusable components and pagination.
 
 ## Installation
 1. Download the project as a ZIP file and extract it.
@@ -26,6 +26,8 @@ Red Gym is a React.js-based project that uses HTML, CSS, React.js, and MaterialU
 4. The exercises and their GIFs will be displayed as cards with pagination.
 5. Clicking on a card will open the GIF and the related video fetched from the YouTube API.
 6. The page will also show similar exercise cards.
+
+**Note:** Please remember to change the API key as it is unique to your setup.
 
 ## Contributing
 If you'd like to contribute to Red Gym, you are welcome to do so. Feel free to submit bug reports, feature requests, or pull requests. Make sure to follow our code formatting standards.
