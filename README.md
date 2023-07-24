@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Red Gym
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Description:**
+Red Gym is a React.js-based project that uses HTML, CSS, React.js, and MaterialUI. The main functionality of the project is to fetch data from two APIs - ExerciseDB and YouTube Video and Download API, both obtained from RapidAPI. The ExerciseDB API provides information about various exercises, and its data is used to fetch related videos from the YouTube API. The project boasts a user-friendly interface with reusable components and pagination. **Note:** Please remember to change the API key as it is unique to your setup.
 
-## Available Scripts
+## Installation
+1. Download the project as a ZIP file and extract it.
+2. Open the project folder in Visual Studio Code.
+3. Ensure you have Node.js installed.
+4. Install create-react-app globally using the following command:
+   ```
+   npm install -g create-react-app
+   ```
+5. Install all project dependencies using:
+   ```
+   npm install
+   ```
 
-In the project directory, you can run:
+## Usage
+1. To start the project, run the following command:
+   ```
+   npm start
+   ```
+2. When you open the website, the homepage will appear.
+3. Explore exercises by searching for exercises for a particular muscle.
+4. The exercises and their GIFs will be displayed as cards with pagination.
+5. Clicking on a card will open the GIF and the related video fetched from the YouTube API.
+6. The page will also show similar exercise cards.
 
-### `npm start`
+## Contributing
+If you'd like to contribute to Red Gym, you are welcome to do so. Feel free to submit bug reports, feature requests, or pull requests. Make sure to follow our code formatting standards.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
