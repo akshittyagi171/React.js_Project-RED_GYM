@@ -4,6 +4,10 @@ import { BrowserRouter } from 'react-router-dom';
 
 import App from './App';
 
+/*
+@Author - Akshit Tyagi
+ */
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(

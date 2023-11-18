@@ -5,6 +5,10 @@ import Exercises from '../components/Exercises';
 import SearchExercises from '../components/SearchExercises';
 import HeroBanner from '../components/HeroBanner';
 
+/*
+@Author - Akshit Tyagi
+ */
+
 const Home = () => {
   const [exercises, setExercises] = useState([]);
   const [bodyPart, setBodyPart] = useState('all');

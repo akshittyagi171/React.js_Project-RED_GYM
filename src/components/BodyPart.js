@@ -2,6 +2,10 @@ import React from 'react';
 import { Stack, Typography } from '@mui/material';
 import Icon from '../assets/icons/gym.png';
 
+/*
+@Author - Akshit Tyagi
+ */
+
 const BodyPart = ({ item, setBodyPart, bodyPart }) => (
   <Stack
     type="button"

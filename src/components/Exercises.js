@@ -6,6 +6,10 @@ import { exerciseOptions, fetchData } from '../utils/fetchData';
 import ExerciseCard from './ExerciseCard';
 import Loader from './Loader';
 
+/*
+@Author - Akshit Tyagi
+ */
+
 const Exercises = ({ exercises, setExercises, bodyPart }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const [exercisesPerPage] = useState(6);
