@@ -31,7 +31,3 @@ Red Gym is a React.js-based project that uses HTML, CSS, React.js, and MaterialU
 
 ## Contributing
 If you'd like to contribute to Red Gym, you are welcome to do so. Feel free to submit bug reports, feature requests, or pull requests. Make sure to follow our code formatting standards.
-
----
-
-By: Akshit Tyagi
